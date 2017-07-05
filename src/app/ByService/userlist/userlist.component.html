@@ -1,0 +1,5 @@
+
+<input type="text" id="name" (input)="name=$event.target.value" name="name"/>
+<input type="text" [(ngModel)]="email" name="email" id="email">
+<button (click)='AddUser()'>Add User</button>
+<button class='btn btn-primary' (click)='showUserCount()'>Show Users</button> 

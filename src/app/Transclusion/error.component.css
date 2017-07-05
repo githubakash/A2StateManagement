@@ -1,0 +1,24 @@
+.box{
+
+   border: 1px black solid;
+   background-color:yellow;
+}
+
+.footer{
+ 
+ background-color: green;
+
+}
+
+.header{
+ 
+ background-color: green;
+ text-align: center;
+
+}
+
+.body{
+ 
+ background-color: whitesmoke;
+
+}

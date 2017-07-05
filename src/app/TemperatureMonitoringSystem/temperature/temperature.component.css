@@ -1,0 +1,46 @@
+.temperature-container{
+border: 1px blue solid;
+background-color: grey;
+padding:5px;
+margin:5px;
+}
+
+.progress{
+    height:50px;
+    background-color: green;
+}
+
+.progress-bar{
+    background-color: red;
+}
+
+.messages{
+    padding: 10px;
+    margin:5px;
+    height:25%;
+}
+
+.median{
+ padding: 10px;
+    margin:5px;
+ height:25%;
+
+}
+
+.box{
+    height:100%;
+    border: 1px maroon solid;
+    margin:5px;
+    padding:10px;
+}
+
+.form-control{
+
+    margin-bottom: 10px;
+}
+
+.alert{
+
+    margin-bottom: 0px;
+}
+

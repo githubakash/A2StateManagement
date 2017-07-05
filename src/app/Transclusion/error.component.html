@@ -1,0 +1,15 @@
+<div class="fluid-container">
+<div class='row'>
+<div class = 'col-lg-6' [ngClass]="'box'" >
+    <header [ngClass]="'header'">{{header1}}</header>
+    <ng-content [ngClass]="body" [body1]></ng-content>
+       <ng-content [ngClass]="body" select=[body-2]></ng-content>
+       <footer [ngClass]="'footer'">
+    <button class="btn btn-danger">{{footerButtonText.cancel}}</button>
+    <button class="btn btn-primary">{{footerButtonText.ok}}</button>
+<!--//{{footerButtonText.cancel}}-->
+           
+           </footer>
+</div>
+</div>
+</div>
